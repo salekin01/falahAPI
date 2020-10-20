@@ -14,7 +14,7 @@ public class EmailUtil {
     public static void sendEmail(String recipient, String subject, String body) {
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
-        props.put("mail.smtp.port", "587");                //default port 25
+        props.put("mail.smtp.port", "587");                //default port 25  //587
         props.put("mail.smtp.starttls.enable", "true");   // Gmail requires TLS, server may not
         Session session = Session.getDefaultInstance(props);
 
