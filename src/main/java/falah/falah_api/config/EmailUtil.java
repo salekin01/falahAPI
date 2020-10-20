@@ -27,7 +27,7 @@ public class EmailUtil {
 
             Transport.send(message, "falahchemnitzteam", "falah2020" );  //pass needed
         } catch (MessagingException ex) {
-            ex.printStackTrace();  //errorlog is needed
+            ex.printStackTrace();
         }
     }
 }
